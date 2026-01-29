@@ -13,32 +13,7 @@ It is designed as a hands-on AZ-104 level project to showcase core Azure Adminis
 - Azure Monitor
 - Azure Backup
 - Role-Based Access Control (RBAC)
-- ## Architecture Diagram
 
-```text
-User (Browser)
-     |
-     | HTTP (Port 80)
-     v
-Public IP Address
-     |
-     v
-Network Security Group (NSG)
-     |
-     v
-Virtual Network (VNet)
-     |
-     v
-Subnet
-     |
-     v
-Linux VM (Ubuntu)
-     |
-     v
-Nginx Web Server
-
-___________________________________________________________________
-  
 
 ## Azure Services Used
 - Azure Virtual Machines
