@@ -15,7 +15,7 @@ It is designed as a hands-on AZ-104 level project to showcase core Azure Adminis
 - Role-Based Access Control (RBAC)
 
 
-## Azure Services Used
+## Architecture Diagram
 - Azure Virtual Machines
 - Azure Virtual Network
 - Network Security Groups
