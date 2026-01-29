@@ -39,6 +39,7 @@ Linux VM (Ubuntu)
 Nginx Web Server
 
 
+
 ## Azure Services Used
 - Azure Virtual Machines
 - Azure Virtual Network
