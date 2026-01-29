@@ -16,7 +16,7 @@ It is designed as a hands-on AZ-104 level project to showcase core Azure Adminis
 
 
 ## Architecture Diagram
-- ```text
+```text
 User (Browser)
      |
      | HTTP (Port 80)
