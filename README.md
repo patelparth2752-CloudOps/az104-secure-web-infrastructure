@@ -14,10 +14,14 @@ It is designed as a hands-on AZ-104 level project to showcase core Azure Adminis
 - Azure Backup
 - Role-Based Access Control (RBAC)
 
-## Architecture Diagram
 
-```text
-User → Public IP → NSG → VNet → Subnet → VM → Nginx
+## Azure Services Used
+- Azure Virtual Machines
+- Azure Virtual Network
+- Network Security Groups
+- Azure Monitor
+- Azure Backup
+- Microsoft Entra ID (RBAC)
 
 ## Azure Services Used
 - Azure Virtual Machines
