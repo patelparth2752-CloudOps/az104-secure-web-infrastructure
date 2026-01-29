@@ -1,70 +1,52 @@
 # Secure Web Infrastructure on Azure (AZ-104 Project)
 
-This project demonstrates core Azure Administrator (AZ-104) skills by building a secure and monitored web infrastructure using Microsoft Azure.
+## Overview
+This project demonstrates the implementation of a secure and monitored web infrastructure on Microsoft Azure.  
+It is designed as a hands-on AZ-104 level project to showcase core Azure Administrator skills.
 
-The goal of this project is to showcase hands-on experience with Azure networking, security, compute, monitoring, and access control.
-
----
-
-## Architecture Overview
-
-The project includes:
-- Azure Resource Group for organization
-- Virtual Network with subnet
-- Network Security Group (NSG) for traffic control
-- Linux Virtual Machine hosting a web server
-- Azure Monitor for performance monitoring
-- Azure Backup for data protection
+## Architecture
+- Resource Group
+- Virtual Network with Subnet
+- Network Security Group (NSG)
+- Linux Virtual Machine (Ubuntu)
+- Public IP
+- Azure Monitor
+- Azure Backup
 - Role-Based Access Control (RBAC)
 
----
-
 ## Azure Services Used
-
-- Azure Resource Groups
-- Azure Virtual Network (VNet)
-- Subnets
-- Network Security Groups (NSG)
-- Azure Virtual Machine (Linux)
-- Azure Monitor & Log Analytics
+- Azure Virtual Machines
+- Azure Virtual Network
+- Network Security Groups
+- Azure Monitor
 - Azure Backup
-- Azure RBAC
+- Microsoft Entra ID (RBAC)
 
----
+## Implementation Steps
+1. Created a Resource Group for isolation and management
+2. Configured a Virtual Network and Subnet
+3. Created and associated NSG with inbound rules (HTTP, SSH)
+4. Deployed a Linux VM inside the VNet
+5. Installed and configured Nginx web server
+6. Verified web access using Public IP
+7. Enabled Azure Monitor and collected metrics
+8. Configured Azure Backup for the VM
+9. Applied RBAC with least-privilege access
 
-## Security Implementation
+## Validation & Evidence
+Screenshots are included to validate:
+- VM deployment
+- Nginx web page access
+- NSG rules
+- Monitoring metrics
+- Backup configuration
+- RBAC assignment
 
-- NSG allows HTTP (port 80) from the internet
-- SSH (port 22) restricted to my public IP only
-- Default deny rules enforced
-- RBAC applied using least-privilege principle
+## Security Considerations
+- Restricted inbound traffic using NSG
+- SSH access limited
+- Role-based access control applied
+- Backup enabled for disaster recovery
 
----
-
-## Monitoring and Backup
-
-- VM Insights enabled using Azure Monitor
-- Log Analytics workspace configured
-- Backup enabled using Recovery Services Vault with daily backups
-
----
-
-## Challenges Faced
-
-- Encountered vCPU quota limits on a new Azure subscription
-- Resolved by requesting a regional vCPU quota increase
-
----
-
-## Future Improvements
-
-- Add Load Balancer for high availability
-- Automate deployment using ARM or Bicep
-- Extend project with DevOps practices
-
----
-
-## Author
-
-Parth  
-Azure Administrator (AZ-104 Certified)
+## Outcome
+This project demonstrates practical experience with Azure core infrastructure, security, monitoring, and governance aligned with AZ-104 objectives.
