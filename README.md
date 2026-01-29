@@ -14,7 +14,7 @@ It is designed as a hands-on AZ-104 level project to showcase core Azure Adminis
 - Azure Backup
 - Role-Based Access Control (RBAC)
   
-## Architecture Diagram
+## Architecture Diagram (Daigram.png)
 User (Browser)
      |
      | HTTP (Port 80)
