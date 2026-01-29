@@ -37,7 +37,7 @@ Linux VM (Ubuntu)
      v
 Nginx Web Server
 
-
+___________________________________________________________________
   
 
 ## Azure Services Used
