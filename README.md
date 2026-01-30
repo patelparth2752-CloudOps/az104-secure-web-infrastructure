@@ -36,7 +36,7 @@ Linux VM (Ubuntu)
      v
 Nginx Web Server
 
-![NSG Inbound Rules](screenshots/nsg-rules.png)
+![Infra](screenshots/Daigram.png)
     
 ## Azure Services Used
 - Azure Virtual Machines
