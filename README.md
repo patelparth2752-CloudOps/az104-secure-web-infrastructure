@@ -36,7 +36,7 @@ Linux VM (Ubuntu)
      v
 Nginx Web Server
 
-![Infra]([screenshots/Daigram.png](https://github.com/patelparth2752-CloudOps/az104-secure-web-infrastructure/blob/main/diagram.png))
+![VM Overview](screenshots/daigram.png)
     
 ## Azure Services Used
 - Azure Virtual Machines
