@@ -36,7 +36,7 @@ Linux VM (Ubuntu)
      v
 Nginx Web Server
 
-![Architecture Overview](screenshots)
+![Architecture Overview](screenshots/diagram.png)
     
 ## Azure Services Used
 - Azure Virtual Machines
