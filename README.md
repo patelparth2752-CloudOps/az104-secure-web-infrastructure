@@ -42,14 +42,6 @@ A Linux virtual machine running Ubuntu is deployed within the subnet and hosts a
 8. Configured Azure Backup for the VM
 9. Applied RBAC with least-privilege access
 
-## Validation & Evidence
-Screenshots are included to validate:
-- VM deployment
-- Nginx web page access
-- NSG rules
-- Monitoring metrics
-- Backup configuration
-- RBAC assignment
 
 ## Security Considerations
 - Restricted inbound traffic using NSG
