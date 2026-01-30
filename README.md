@@ -14,27 +14,12 @@ It is designed as a hands-on AZ-104 level project to showcase core Azure Adminis
 - Azure Backup
 - Role-Based Access Control (RBAC)
   
-## Architecture Diagram (Daigram.png)
-User (Browser)
-     |
-     | HTTP (Port 80)
-     v
-Public IP Address
-     |
-     v
-Network Security Group (NSG)
-     |
-     v
-Virtual Network (VNet)
-     |
-     v
-Subnet
-     |
-     v
-Linux VM (Ubuntu)
-     |
-     v
-Nginx Web Server
+## Architecture Overview
+The solution follows a standard Azure single-VM web architecture designed with security and network isolation in mind. End users access the application through a web browser over HTTP on port 80 via an Azure Public IP address.
+
+Inbound traffic is controlled using a Network Security Group (NSG), which enforces access rules and allows only required ports before traffic enters the virtual network. The workload is deployed inside a Virtual Network (VNet) and routed to a dedicated subnet to ensure logical separation and isolation.
+
+A Linux virtual machine running Ubuntu is deployed within the subnet and hosts an Nginx web server to serve HTTP requests. This architecture demonstrates practical implementation of Azure networking, security controls, and compute services aligned with Azure Administrator (AZ-104) responsibilities.
 
 ![Architecture Overview](screenshots/diagram.png)
     
