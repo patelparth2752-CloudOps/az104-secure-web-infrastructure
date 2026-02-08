@@ -21,7 +21,7 @@ Inbound traffic is controlled using a Network Security Group (NSG), which enforc
 
 A Linux virtual machine running Ubuntu is deployed within the subnet and hosts an Nginx web server to serve HTTP requests. This architecture demonstrates practical implementation of Azure networking, security controls, and compute services aligned with Azure Administrator (AZ-104) responsibilities.
 
-![Architecture Overview](screenshots/vNet.png)
+![Architecture Overview](screenshots/v-net.png)
     
 ## Azure Services Used
 - Azure Virtual Machines
